@@ -1,0 +1,11 @@
+pipeline {
+    agent any
+    stages {
+        stage('Run Script') {
+            steps {
+                sh 'echo "Running a shell script..."'
+            }
+        }
+    }
+}
+
